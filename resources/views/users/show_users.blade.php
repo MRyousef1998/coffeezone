@@ -82,11 +82,11 @@
                                             <a href="{{ route('users.edit', $user->id) }}" class="btn btn-sm btn-info"
                                                 title="تعديل"><i class="las la-pen"></i></a>
                                       
-                                  
+<!--                                   
                                             <a class="modal-effect btn btn-sm btn-danger" data-effect="effect-scale"
                                                 data-user_id="{{ $user->id }}" data-username="{{ $user->name }}"
                                                 data-toggle="modal" href="#modaldemo8" title="حذف"><i
-                                                    class="las la-trash"></i></a>
+                                                    class="las la-trash"></i></a> -->
                                       
                                     </td>
                                 </tr>
