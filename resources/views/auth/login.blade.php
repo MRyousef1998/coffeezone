@@ -1,6 +1,6 @@
 @extends('layouts.master2')
 @section('title')
-تسجيل دخول - برنامج الفواتير
+تسجيل دخول - برنامج منطقة القهوة
 @stop
 
 @section('css')
@@ -19,7 +19,7 @@
                         <div class="row">
                             <div class="col-md-10 col-lg-10 col-xl-9 mx-auto">
                                 <div class="card-sigin">
-                                    <div class="mb-5 d-flex"> <a href="{{ url('/' . '') }}"><img src="{{URL::asset('assets/img/brand/favicon.png')}}" class="sign-favicon ht-40" alt="logo"></a><h1 class="main-logo1 ml-1 mr-0 my-auto tx-28">Kithran <span>Al</span>Thbi</h1></div>
+                                    <div class="mb-5 d-flex"> <a href="{{ url('/' . '') }}"><img src="{{URL::asset('assets/img/brand/favicon.png')}}" class="sign-favicon ht-40" alt="logo"></a><h1 class="main-logo1 ml-1 mr-0 my-auto tx-28">COFFEE <span></span>ZONE</h1></div>
                                     <div class="card-sigin">
                                         <div class="main-signup-header">
                                             <h2>مرحبا بك</h2>
