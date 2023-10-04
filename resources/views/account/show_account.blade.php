@@ -2,7 +2,7 @@
 @section('css')
 
 @section('title')
-    المستخدمين - مورا سوفت للادارة الفواتير
+    المستخدمين 
 @stop
 
 <!-- Internal Data table css -->
@@ -50,9 +50,9 @@
 				<li><a href="#tab12" data-toggle="tab"><i class="fa fa-cube"></i> قبض</a></li>
 				<li><a href="#tab13" data-toggle="tab"><i class="fa fa-cube"></i> مصاريف خارجية</a></li>
 
-				<li ><a href="#tab14" data-toggle="tab"><i class="fa fa-cube"></i> السيد زهير</a></li>
-				<li><a href="#tab15" data-toggle="tab"><i class="fa fa-cube"></i> السيد غياث</a></li>
-				<li><a href="#tab16" data-toggle="tab"><i class="fa fa-cube"></i> السيد زكريا</a></li>
+				<li ><a href="#tab14" data-toggle="tab"><i class="fa fa-cube"></i> الشريك الاول</a></li>
+				<li><a href="#tab15" data-toggle="tab"><i class="fa fa-cube"></i> الشريك الثاني </a></li>
+				<li><a href="#tab16" data-toggle="tab"><i class="fa fa-cube"></i> الشريك الثالث</a></li>
 			</ul>
 		</div>
 	</div>

@@ -34,11 +34,11 @@
                     <div class="card-body">
                         <div class="invoice-header">
                             <div>
-                            <h1 class="invoice-title"  style="font-size:70px; color:rgb(97, 134, 255);" >KITHRAN AL THAHBI</h1>
+                            <h1 class="invoice-title"  style="font-size:70px; color:rgb(97, 134, 255);" >COFFEE ZONE</h1>
                             <h3 class="invoice-title" style=" color:rgb(97, 134, 255);" >       KITCHENS & REST. EUIP. TR</h3>
                         </div>
                             <div class="billed-from">
-                                <h6>KITHRAN AL THAHBI</h6>
+                                <h6>COFFEE ZONE</h6>
                                 <p>Sharjah,UAE,Industria 4
                                     near to Isuzu showroom university road<br>
                                     Tel No: +971 567-774-654<br>

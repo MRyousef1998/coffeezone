@@ -15,7 +15,7 @@
     <link href="{{ URL::asset('assets/plugins/select2/css/select2.min.css') }}" rel="stylesheet">
 
 @section('title')
-    تقرير الصندوق - مورا سوفت للادارة الفواتير
+    تقرير الصندوق 
 @stop
 @endsection
 @section('page-header')
@@ -83,9 +83,9 @@
                                 <option value="1">مدفوعات</option>
                                 <option value="2">مقبوضات</option>
                                 <option value="3">مصاريف خارجية</option>
-                                <option value="4">السيد زهير </option>
-                                <option value="5">السيد غياث</option>
-                                <option value="6">السيد زكريا</option>
+                                <option value="4">الشريك الاول </option>
+                                <option value="5">الشريك الثاني </option>
+                                <option value="6">الشريك الثالث</option>
 
                             </select>
                         </div><!-- col-4 -->

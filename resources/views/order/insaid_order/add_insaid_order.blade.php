@@ -162,7 +162,7 @@
                                 <label for="inputName" class="control-label">الحالة   </label>
                                 <select name="status" id="status" class="form-control" onchange="myFunctiontoToDisableReadOnly()" required>
                                     <!--placeholder-->
-                                    <option value="" selected disabled>حدد الحالة </option>
+                               
                                      @foreach ($status as $statu)
                                         <option value="{{ $statu->id }}"> {{ $statu->status_name }}</option>
                                     @endforeach
@@ -243,7 +243,7 @@
                             <div class="tab-content">
 
 
-                                <div class="tab-pane active" id="tab4">
+                                <div class="tab-pane " id="tab4">
                   <div class="table-responsive">
                                       
                     <table id="example1" class="table key-buttons text-md-nowrap" data-page-length='10'>

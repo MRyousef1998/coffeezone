@@ -86,7 +86,7 @@
 
                                 <label for="inputName" class="control-label">المورد</label>
                                 <select name="productCategory" class="form-control SlectBox"
-                                    >
+                                required>
                                     <!--placeholder-->
                                     <option value="" selected disabled>حدد  المورد</option>
                                     @foreach ($importClints as $importClint)
@@ -96,7 +96,7 @@
                             </div>
                               <div class="col">
                                 <label for="inputName" class="control-label">حدد العميل </label>
-                                <select name="productCompanies" class="form-control SlectBox" >
+                                <select name="productCompanies" class="form-control SlectBox"  >
                                     <!--placeholder-->
                                     <option value="" selected disabled>حدد العميل </option>
                                     @foreach ($clients as $client)
@@ -115,7 +115,7 @@
                         <div class="row">
                             <div class="col">
                                 <label for="inputName" class="control-label">الحالة   </label>
-                                <select name="Rate_VAT" id="Rate_VAT" class="form-control" onchange="myFunction()">
+                                <select name="Rate_VAT" id="Rate_VAT" class="form-control" onchange="myFunction()" required>
                                     <!--placeholder-->
                                     <option value="" selected disabled>حدد الحالة </option>
                                     @foreach ($status as $status1)

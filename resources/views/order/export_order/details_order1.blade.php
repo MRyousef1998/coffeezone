@@ -200,7 +200,7 @@
                                         <td style="text-align: center;vertical-align: middle;">
                                             
                                             <div class = "vertical"><div>
-                                                <img src="http://khaizran.online/Attachments/{{ $x->id }}/{{ $x->image_name }}"  width="180"  height="120" /></div>
+                                                <img src="http://coffeezone.website/Attachments/{{ $x->id }}/{{ $x->image_name }}"  width="180"  height="120" /></div>
                                                 <div>
                                                     {{ $x->product_name }}</div>
                                             </div>
@@ -952,7 +952,7 @@
             url :"{{URL::to('export_productDetails_box/')}}?product_id="+id+"&order_id="+order_id,
             
             success: function(result) {
-                alert(1);
+               
                 $('#modaldemo9 div.modal-body').html(result);
             }
         });
@@ -1025,7 +1025,7 @@ setTimeout(() => $('.modal-backdrop').not('.modal-stack').css('z-index', zIndex 
         var id = button.data('id')
         var order_id = button.data('order_id')
         var product_price = button.data('product_price')
-       alert(product_price);
+      
         
         var modal = $(this)
         modal.find('.modal-body #id').val(id);
@@ -1046,7 +1046,7 @@ setTimeout(() => $('.modal-backdrop').not('.modal-stack').css('z-index', zIndex 
     </script>
     <script>
         $('#sharcapsalation').on('show.bs.modal', function(event) {
-            alert(122);
+           
         var button = $(event.relatedTarget)
         var id = button.data('id')
         var order_id = button.data('order_id')

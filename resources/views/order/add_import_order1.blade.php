@@ -136,7 +136,7 @@
                                 <select name="importer" class="form-control SlectBox"
                                     required>
                                     <!--placeholder-->
-                                    <option value="" selected disabled>حدد  المورد</option>
+                                    <!-- <option value="" selected disabled>حدد  المورد</option> -->
                                     @foreach ($importClints as $importClint)
                                         <option value="{{ $importClint->id }}"> {{ $importClint->name }}</option>
                                     @endforeach
@@ -165,7 +165,7 @@
                                 <label for="inputName" class="control-label">الحالة   </label>
                                 <select name="status" id="status" class="form-control" onchange="myFunctiontoToDisableReadOnly()" required>
                                     <!--placeholder-->
-                                    <option value="" selected disabled>حدد الحالة </option>
+                                    <!-- <option value="" selected disabled>حدد الحالة </option> -->
                                      @foreach ($status as $statu)
                                         <option value="{{ $statu->id }}"> {{ $statu->status_name }}</option>
                                     @endforeach
@@ -188,7 +188,7 @@
                             <div class="col">
                                 <label>تاريخ المتوقع للوصول</label>
                                 <input class="form-control appearance-none block w-full" type="date" name="Due_date" placeholder="YYYY-MM-DD"
-                                    type="text" required>
+                                    type="text" value="{{ date('Y-m-d') }}" required>
                             </div>
                           
 

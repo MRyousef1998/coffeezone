@@ -105,7 +105,7 @@
                             </div>
                             <div class="col">
                                 <label for="inputName" class="control-label">القیمة النهائية </label>
-                                <input type="text" value="{{$order->Total}}" class="form-control" id="Total" name="Total" readonly>
+                                <input type="text" value="{{$order->Total-$invoice->Discount}}" class="form-control" id="Total" name="Total" readonly>
                             </div>
                         
 

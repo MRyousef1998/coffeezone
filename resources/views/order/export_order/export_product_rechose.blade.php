@@ -52,7 +52,7 @@
 						<div class="card item-card">
 							<div class="card-body pb-0 h-100">
 								<div class="text-center">
-									<img src="http://khaizran.online/Attachments/{{ $x->id }}/{{ $x->image_name }}" alt="img" class="img-fluid">
+									<img src="http://coffeezone.website/Attachments/{{ $x->id }}/{{ $x->image_name }}" alt="img" class="img-fluid">
 								</div>
 								<div class="card-body cardbody relative">
 									<div class="cardtitle">
